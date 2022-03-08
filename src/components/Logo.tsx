@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import NextImage from "next/image";
 interface Props {
-  className: string;
+  className?: string;
 }
 export default function Logo({ className }: Props) {
   return (
