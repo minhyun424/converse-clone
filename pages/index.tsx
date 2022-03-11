@@ -23,8 +23,8 @@ const Home: NextPage = () => {
         <div className="font-bold">NOTICE</div>
         <div>로그인이 어려우실 경우 FAQ를 참조해주세요.</div>
       </div>
-<Header>
-</Header>
+      <Header />
+      <main className="h-screen"></main>
     </>
   );
 };

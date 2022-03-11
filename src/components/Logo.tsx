@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import NextImage from "next/image";
+
 interface Props {
   className?: string;
 }
