@@ -1,7 +1,11 @@
 module.exports = {
-  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
+  content: ["./pages/**/*.{ts,tsx}", "./src/components/**/*.{ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth: {
+        "8xl": "90rem",
+      },
+    },
   },
   plugins: [],
 };
