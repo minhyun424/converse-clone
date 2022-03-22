@@ -29,7 +29,7 @@ export default function Header() {
           </button>
         </div>
       </div>
-      <div className="hidden items-center justify-between p-3 md:flex">
+      <div className="md:max-w-8xl relative mx-auto hidden h-16 items-center justify-between border-b px-4 md:flex">
         <div className="flex">
           <Logo />
           <nav className="ml-4 flex">
